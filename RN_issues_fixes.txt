@@ -1,0 +1,19 @@
+
+React navigation:
+
+document:
+https://reactnavigation.org/docs/en/hello-react-navigation.html
+
+issue: unexpected char: '\' @ line 3,
+fix: https://stackoverflow.com/questions/54504742/getting-error-gradlew-bat-installdebug-after-installing-react-navigation-and-ges
+
+
+navigation + Redux:
+
+https://www.superglobals.net/react-navigation-redux/
+
+this.props.navigation:
+Let’s talk about that this.props.navigation piece. Where did that come from?
+That’s the great part about react-navigation: as long as our screen is included in our StackNavigator,
+it automatically inherits many useful props from the navigation object.
+We just used one of them, navigate, to move to a different page, but we can do much more than that.
